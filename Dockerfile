@@ -1,4 +1,5 @@
-FROM debian:jessie
+FROM debian
+#FROM debian:jessie
 USER root
 
 RUN apt-get update -qq && apt-get install -y build-essential net-tools \
